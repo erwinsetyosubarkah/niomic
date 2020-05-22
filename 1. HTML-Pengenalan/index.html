@@ -99,7 +99,7 @@
     <input type="url"><br>
     <input type="week"> -->
 
-    <form>
+    <!-- <form>
         <input type="text"><br>
         <input type="password"><br>
         <input type="radio"><br>
@@ -111,8 +111,34 @@
         <input type="reset"><br>
         <input type="submit"><br>
 
+    </form> -->
+
+    <form>
+        <fieldset>
+            <legend>Input Form Registrasi</legend>
+            <input type="text"><br>
+            <input type="text">
+        </fieldset>
     </form>
 
+    <select>
+        <optgroup label="Sate">
+            <option>Sate Padang</option>
+            <option>Sate Madura</option>
+        </optgroup>
+        <optgroup label="Makanan Berkuah">
+            <option>Gulai</option>
+            <option>Soto</option>
+        </optgroup>
+    </select>
+    <br>
+    <input type="text" list="isidatalist">
+    <datalist id="isidatalist">
+        <option>Sate Padang</option>
+        <option>Sate Madura</option>
+        <option>Gulai</option>
+        <option>Soto</option>
+    </datalist>
 </body>
 
 </html>
